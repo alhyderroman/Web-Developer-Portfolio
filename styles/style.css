@@ -59,7 +59,76 @@ nav a {
     display: flex;
     align-items: center;
 }
+.banner-content{
+    max-width: 585px;
+}
 .banner img{
     width: 500px;
     height: 600px;
         }
+
+.banner-greeting{
+    font-size:45px;
+    margin-bottom: 5px;
+    }
+.banner-title{
+    font-size:60px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-top:0px;
+}
+
+/* main section styles */
+main{
+   max-width: 1140px;
+    margin:0 200px;
+    text-align: justify;
+
+
+}
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin:0px; 
+}
+.about-info-container{
+
+display:flex; 
+justify-content:space-between;  
+margin: 0px;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-size: 20px;
+    font-weight: 400;
+    color:#757575;
+}
+
+.info-description{
+    font-size:20 px;
+    font-weight: 700;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.section description{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color:#757575;
+}
+
+/* What i do related styles */
+.skills-container{
+    display:flex;
+    justify-content: space-between;
+}
