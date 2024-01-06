@@ -119,6 +119,8 @@ margin: 0px;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+    margin-top:80px;
+    margin-bottom:5px;
 }
 .section description{
     font-size: 18px;
@@ -131,4 +133,40 @@ margin: 0px;
 .skills-container{
     display:flex;
     justify-content: space-between;
+    gap: 20px;
+}
+.skill{
+    padding:30px;
+}
+.skill-description{
+    text-align: justify;
+}
+
+/* resume section style */
+.resume-column-title{
+color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-container{
+    display:flex;
+    gap: 50px;
+    margin-top:0px;
+    align-items: center;
+}
+.resume-item-description{
+color:#757575;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.resume-item-institute{
+color:#757575;
+font-size: 20px;
+font-weight: 600;
+}
+.resume-item-title{
+color:#474747;
+font-size: 25px;
+font-weight: 700;
 }
